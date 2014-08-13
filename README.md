@@ -1,9 +1,9 @@
 symfony2
 ========
 
-A symfony2 application supports database backed usersystem with most common features required for user for registration and login.
+A symfony2 framework based application that supports database backed usersystem.
 
-This is meant for providing an idea about how to work with symfony for the beginners. There will be more to come. So keep in track.
+This is meant for providing an idea about how to work with symfony, basically for the beginners. There will be more to come. So keep in track.
 
 Features Included:
 
