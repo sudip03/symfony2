@@ -63,22 +63,6 @@ class User implements AdvancedUserInterface
      * @var boolean
      */
     protected $status;
-
-
-    /** 
-    * @ORM\Column(type="integer") 
-    *
-    * @var integer
-    */
-    protected $created;
-    
-    /** 
-    * @ORM\Column(type="integer") 
-    *
-    * @var integer
-    */
-    protected $updated;
-
     
     /** 
     * @ORM\Column(type="boolean") 
@@ -142,7 +126,22 @@ class User implements AdvancedUserInterface
      * @ORM\Column(name="phone", type="string", nullable=true)
      * @var integer
      */
-    protected $phone;   
+    protected $phone;    
+    
+    /** 
+    * @ORM\Column(type="integer") 
+    *
+    * @var integer
+    */
+    protected $created;
+    
+    /** 
+    * @ORM\Column(type="integer") 
+    *
+    * @var integer
+    */
+    protected $updated;
+
     
     /**
      * Constructor
