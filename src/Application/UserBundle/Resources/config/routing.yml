@@ -1,0 +1,23 @@
+_welcome:
+    path:      /
+    defaults:  { _controller: UserBundle:Auth:login }
+
+user_homepage:
+    pattern:  /hello/
+    defaults: { _controller: UserBundle:Default:index }
+
+login:
+    pattern: /login
+    defaults: { _controller: UserBundle:Auth:login}
+    
+login_check:
+    pattern: /login_check 
+    
+logout:
+    pattern: /logout
+    
+register:
+    pattern: /register
+    defaults: { _controller: UserBundle:User:register}
+    
+    
